@@ -5,3 +5,29 @@
   align-items: center;
   margin: 28px auto 56px;
 }
+
+@media screen and (max-width: 1280px) {
+  .header {
+    max-width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 90.625%;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 90%;
+    margin-top: 16px;
+  }
+}

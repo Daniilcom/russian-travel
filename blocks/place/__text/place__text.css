@@ -1,3 +1,4 @@
 .place__text {
   grid-column: 2;
+  max-width: 100%;
 }

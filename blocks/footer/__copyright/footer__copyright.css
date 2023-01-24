@@ -1,0 +1,13 @@
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__copyright:hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
