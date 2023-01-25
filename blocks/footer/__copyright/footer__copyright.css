@@ -11,3 +11,16 @@
   opacity: 0.5;
   transition: opacity 0.4s;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    font-size: 4.375vw;
+    line-height: 1;
+  }
+}

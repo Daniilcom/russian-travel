@@ -5,3 +5,30 @@
   align-items: center;
   margin: 0 auto 24px;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

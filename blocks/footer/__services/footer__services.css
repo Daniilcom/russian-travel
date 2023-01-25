@@ -1,3 +1,9 @@
 .footer__services {
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__services {
+    margin-bottom: 5%;
+  }
+}

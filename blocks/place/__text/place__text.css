@@ -2,3 +2,10 @@
   grid-column: 2;
   max-width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    grid-column: 1;
+    margin: 0 5%;
+  }
+}

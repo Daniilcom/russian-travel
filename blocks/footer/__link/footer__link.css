@@ -5,11 +5,23 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .footer__link:hover {
   opacity: 0.5;
   transition: opacity 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    padding: 0 0 10%;
+    font-size: 7.5vw;
+    line-height: 1;
+  }
 }

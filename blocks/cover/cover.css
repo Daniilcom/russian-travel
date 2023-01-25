@@ -25,3 +25,25 @@
   transition: opacity 0.4s;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    height: 640px;
+    margin: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 0 0 88px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 0 0 64px;
+    height: 200px;
+  }
+}
