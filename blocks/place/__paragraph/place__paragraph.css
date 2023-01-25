@@ -1,9 +1,22 @@
 .place__paragraph {
   grid-column: 2;
   margin: 0;
-  padding-bottom: 26px;
+  padding-bottom: 27px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 2vw;
+    padding-bottom: 3.25%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 5vw;
+  }
 }
