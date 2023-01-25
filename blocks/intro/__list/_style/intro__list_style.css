@@ -1,4 +1,4 @@
-.intro__list_style_bold {
+.intro__list_style {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .intro__list_style_bold {
+  .intro__list_style {
     font-size: 3.75vw;
   }
 }
