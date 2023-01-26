@@ -32,3 +32,10 @@
     gap: 12px;
   }
 }
+
+@media screen and (max-width: 310px) {
+  .photo-grid {
+    margin: 0 5% 20%;
+    gap: 5px;
+  }
+}
