@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
   grid-template-rows: auto;
-  gap: 40px 48px;
+  gap: 48px 40px;
 }
 
 .place:last-of-type {
@@ -30,6 +30,6 @@
     max-width: 100%;
     margin: 0 auto 50px;
     grid-template-columns: repeat(1, fit-content(320px));
-    row-gap: 32px;
+    row-gap: 10vw;
   }
 }

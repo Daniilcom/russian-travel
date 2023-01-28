@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
+    margin-bottom: 6.25%;
     max-width: 93.75%;
   }
 }
@@ -28,6 +29,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 90%;
-    margin-top: 5%;
+    margin: 5% auto 17.5%;
   }
 }
