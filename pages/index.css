@@ -19,8 +19,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-style/intro__list-style.css);
-@import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -40,5 +40,8 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/_decoration/footer__link_decoration.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+* {
+  outline: 1px solid yellowgreen;
+}
