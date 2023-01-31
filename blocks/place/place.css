@@ -25,6 +25,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .place {
+    row-gap: 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     max-width: 100%;
